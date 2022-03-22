@@ -106,7 +106,7 @@
                                                 <option>F0</option>
                                                 <option>F1</option>
                                                 <option>F2</option>
-                                                <option>HIV</option>
+                                                <option>Bình Thường</option>
                                             </select>
                                       
                                 </div>
@@ -123,7 +123,48 @@
                         <h2>Thông tin của bạn</h2>
                         <div class="fieldset-content">
                             <div class="donate-us">
-                               Dùng ES6 lấy thông tin từ người dùng nhập vào hiển thị bên dưới 
+                              
+                              <table class="table">
+                                <tbody class="bg-dark text-white" id="tblThongTin">
+
+                                    <tr>
+                                      <td> Họ và tên </td>
+                                      <td>  </td>
+                                    </tr>
+                  
+                                    <tr>
+                                      <td> Email </td>
+                                      <td>  </td>
+                                    </tr>
+                  
+                                    <tr>
+                                      <td> Số diện thoại </td>
+                                      <td>  </td>
+                                    </tr>
+                  
+                                    <tr>
+                                      <td> Ngày tháng năm sinh </td>
+                                      <td>  </td>
+                                    </tr>
+                  
+                                    <tr>
+                                      <td> Địa chỉ </td>
+                                      <td>  </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td> Thông tin di chuyển </td>
+                                        <td>  </td>
+                                      </tr>
+
+                                      <tr>
+                                        <td> Loại nhiễm </td>
+                                        <td>  </td>
+                                      </tr>
+
+                                  </tbody>
+                              </table>
+
                             </div>
                         </div>
                     </fieldset>
@@ -133,10 +174,16 @@
 
     </div>
     <style>
-        #signup-form .action ul li :last-child a {
-            background-color: red;
+        #signup-form .actions ul li:last-child a {
 
-        }
+           background-color: red !important;
+
+           color: blue; }
+
+           #signup-form input, #signup-form select {
+               background-color: yellow;;
+               color: black;
+           }
     </style>
 
     <!-- JS -->
